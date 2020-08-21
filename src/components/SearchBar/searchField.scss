@@ -1,0 +1,28 @@
+.searchInput {
+  border: none;
+  width: 100%;
+  height: 2.3rem;
+  padding: 0.4rem;
+  margin: 0.9rem 0;
+  background: var(--brand-dark);
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 7px;
+  opacity: 0.9;
+  &:focus {
+    box-shadow: 0 0 7px 1px #999;
+    outline: none;
+  }
+  &:disabled {
+    background: var(--brand-light);
+    color: #8e8e8e;
+  }
+  &::-moz-selection { /* Code for Firefox */
+    color: var(--brand-dark);
+    background: #fff;
+  }
+  &:selection {
+    color: red;
+    background: yellow;
+}
+}
