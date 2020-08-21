@@ -1,3 +1,3 @@
-#Find meaning
-##[Demo](find-meaning.web.app/)
+# Find meaning
+[Demo](https://find-meaning.web.app/)
 ![homePage](src/forReadme.png)
