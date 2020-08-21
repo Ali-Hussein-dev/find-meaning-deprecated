@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "FindMeaning",
+  "name": "English-English Dictionary",
   "icons": [
     {
       "src": "favicon.ico",
