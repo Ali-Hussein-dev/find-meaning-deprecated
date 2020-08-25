@@ -1,0 +1,16 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1rem 1fr auto;
+  //   space-header is not defined and used for spacing
+  grid-template-areas: "space-header" "content" "footer";
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  min-height: 100vh;
+  grid-gap: 1rem 2rem;
+
+  background-image: url(bg600.jpg);
+  background-position: center;
+  background-size: 600 * 600;
+}
